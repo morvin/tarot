@@ -70,6 +70,7 @@ color:var(--indigo);font-size:24px;line-height:1
 }
 .tool .mark.runic{font-family:var(--runic);font-size:23px}
 .tool .mark.star{font-family:var(--serif);font-style:italic}
+.tool .mark.num{font-family:var(--serif);font-size:19px;letter-spacing:.02em}
 .tool .body{min-width:0}
 .tool h2{
 font-family:var(--serif);font-weight:400;font-size:23px;line-height:1.15;
@@ -140,6 +141,20 @@ const TOOLS = [
    name:'Tarot',
    desc:'Twenty-two Major Arcana, upright or reversed. One-card or three-card reading, with a commentary composed on the spot.',
    meta:'22 Major Arcana · 7 deck styles'
+  }
+ },
+ {
+  href:'smorfia.html',
+  glyph:'90', markClass:'num',
+  it:{
+   name:'Smorfia',
+   desc:'Racconta un sogno: la Smorfia napoletana ne riconosce le figure e le traduce nei numeri della tradizione. Al massimo cinque, spesso meno.',
+   meta:'90 numeri · Tradizione napoletana'
+  },
+  en:{
+   name:'Smorfia',
+   desc:'Tell a dream: the Neapolitan Smorfia recognises its figures and turns them into the numbers of tradition. Five at most, often fewer.',
+   meta:'90 numbers · Neapolitan tradition'
   }
  },
  {
